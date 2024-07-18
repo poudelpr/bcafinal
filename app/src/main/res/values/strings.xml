@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">bcafinalproject</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="userid">User Id</string>
+    <string name="fullname">Full Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="signupnow">Sign In Now</string>
+    <string name="signup">Sign In</string>
+    <string name="resolveittext">Description of the image</string>
+    <string name="mobile">Mobile</string>
+    <string name="logo">Logo</string>
+    <string name="login">LOGIN</string>
+    <string name="createcomplaint">Create Complaint</string>
+    <string name="media">Media:</string>
+    <string name="fileupload">File Upload:</string>
+    <string name="tittle">Tittle:</string>
+
+    <string name="entertitle">Enter Title</string>
+    <string name="loginpassword">Password</string>
+    <string name="starthere">Start Here</string>
+    <string name="managecomplain">Manage Complain</string>
+    <string name="submitbtn">SUBMIT</string>
+    <string name="feedback">Feedback</string>
+    <string name="backarrow_desc">Feedback</string>
+    <string name="enter_full_name">Enter your full name</string>
+    <string name="enter_email">Email</string>
+    <string name="message">Message To Us</string>
+    <string name="entermobile">Mobile No</string>
+    <string name="description_hint">Description</string>
+    <string name="description_label">Description:</string>
+    <string name="select_type_hint">Select type</string>
+    <string name="type_label">Type:</string>
+    <string name="next_button">Next</string>
+    <string name="submit_button">NEXT</string>
+    <string name="municapalicitywardno">Munapilicaty</string>
+    <string name="colon_hint">:</string>
+    <string name="address_label">Address:</string>
+    <string name="enter_full_address_hint">Enter Full Address</string>
+    <string name="priority_label">Priority:</string>
+    <string name="solution_label">Solution:</string>
+    <string name="enter_ideas_hint">Enter Ideas to solve it</string>
+    <string name="ResetPasswordnow">Re-Set Password Now</string>
+    <string name="Createpassword"> Create Password </string>
+    <string name="confirmpassword">Confirm Password </string>
+    <string name="RESET">Re-Set </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="uploadarea_desc">Upload a file</string>
+    <string name="uploadbtn">to upload files</string>
+    <string name="Uploadafile">Upload a file:</string>
+    <string name="descriptionbox">Description</string>
+    <string name="title">Title</string>
+    <string name="Status">Status</string>
+    <string name="RecentlyAdded">Recently Added</string>
+    <string name="Completed">Completed</string>
+    <string-array name="type_options">
+        <item>Electricity</item>
+        <item>Road</item>
+        <item>Garbage</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="priority_options">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>
+

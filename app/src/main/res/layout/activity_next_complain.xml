@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDEDED"
+    tools:context=".NextComplain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bright"
+        android:padding="6dp">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/backarrow"
+            android:contentDescription="@string/backarrow_desc"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="8dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createcomplaint"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/createcomplaint"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/municipalicity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/municapalicitywardno"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:layout_marginStart="30dp"
+        android:padding="6dp"
+        android:textColor="#000000"
+        android:contentDescription="@string/municapalicitywardno"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/colon_hint"
+        android:padding="12dp"
+        android:background="@drawable/textbackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="18sp"
+        android:autofillHints="municaplicity"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:layout_marginStart="30dp"
+        android:padding="6dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_full_address_hint"
+        android:padding="12dp"
+        android:background="@drawable/textbackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="18sp"
+        android:autofillHints="streetAddress"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/priority_label"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:layout_marginStart="30dp"
+        android:padding="6dp"
+        android:textColor="#000000"/>
+
+    <Spinner
+        android:id="@+id/priority_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/textbackground"
+        android:padding="12dp"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solution_label"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:layout_marginStart="30dp"
+        android:padding="6dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_ideas_hint"
+        android:padding="12dp"
+        android:background="@drawable/textbackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="18sp"
+        android:autofillHints="messagetosolve"
+        android:inputType="textMultiLine|textCapSentences"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/bright"
+        android:padding="16dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/submitbtn"/>
+</LinearLayout>
